@@ -1,0 +1,30 @@
+import tkinter.font
+from tkinter import *
+
+window = Tk()
+window.title("MyWindow")
+# window.geometry('400x400')
+# window.config(bg="light gray")
+window.resizable(1, True)
+font = tkinter.font.Font(family="맑은 고딕", size=25)
+
+btn1 = tkinter.Button(window, text="1", width=6)
+btn2 = tkinter.Button(window, text="2", width=6)
+btn3 = tkinter.Button(window, text="3", width=6)
+btn4 = tkinter.Button(window, text="4", width=6)
+btn5 = tkinter.Button(window, text="5", width=6)
+btn6 = tkinter.Button(window, text="6", width=6)
+btn7 = tkinter.Button(window, text="7", width=6)
+btn8 = tkinter.Button(window, text="8", width=6)
+btn9 = tkinter.Button(window, text="9", width=6)
+btn1.grid(row=3, column=1, padx=10, pady=10)
+btn2.grid(row=3, column=2, padx=10, pady=10)
+btn3.grid(row=3, column=3, padx=10, pady=10)
+btn4.grid(row=2, column=1, padx=10, pady=10)
+btn5.grid(row=2, column=2, padx=10, pady=10)
+btn6.grid(row=2, column=3, padx=10, pady=10)
+btn7.grid(row=1, column=1, padx=10, pady=10)
+btn8.grid(row=1, column=2, padx=10, pady=10)
+btn9.grid(row=1, column=3, padx=10, pady=10)
+
+window.mainloop()
